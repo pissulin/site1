@@ -1,0 +1,131 @@
+*{
+	font-family: Arial;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	height: 50px;
+	background-color: #353535;
+}
+
+.topoInterior {
+	width: 1000px;
+	margin: auto;
+	color: white;
+}
+
+.logo {
+	float: left;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.menu {
+	float: right;
+	line-height: 50px;
+}
+
+.menu ul, 
+.menu li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.menu li:hover {
+	background-color: #3479ba;
+	color: white;
+
+}
+
+.banner {
+	width: 100%;
+	height: 300px;
+	background-color: #3479ba;
+}
+
+.bannerInterior{
+	width: 1000px;
+	margin: auto;
+}
+
+.bannerEsquerda {
+	width: 500px;
+	height: 300px;
+	float: left;
+	margin-left: 33px;
+}
+
+.bannerDireita img {
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-right: 55px;
+
+}
+
+.textoEfeito{
+	font-size: 48px;
+	color: white;
+	margin-top: 62px;
+}
+
+.outroTextoEfeito{
+	font-size: 20px;
+	color: white;
+
+}
+
+.btnAcessarProdutos{
+	background-color: #ffc001;
+	color: black;
+	width: 280px;
+	height: 55px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 55px;
+	margin-top: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.conteudoInterno{
+	width: 1000px;
+	margin: auto;
+}
+
+.outrosProdutos {
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	font-size: 20px;
+}
+.fotos {
+	margin-bottom:45px;
+}
+.fotos img  {
+	margin-left: 10px;
+	margin-right: 10px;	
+	margin-bottom: 0;
+}
+.rodape {
+	background-color: #347aba;
+	color: white;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px
+	
+}
